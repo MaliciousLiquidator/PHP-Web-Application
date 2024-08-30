@@ -1,0 +1,108 @@
+/* Add some basic styling to the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    }
+    
+    /* Style the main heading */
+    h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    }
+    
+    /* Style the navigation menu */
+    nav {
+    background-color: #f2f2f2;
+    overflow: hidden;
+    text-align: center;
+    }
+    
+    nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    display: inline-block;
+    }
+    
+    nav li {
+    display: inline-block;
+    }
+    
+    nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    
+    nav a:hover {
+    background-color: #ddd;
+    }
+    
+    /* Style the subheadings */
+    h2, h3 {
+    margin-left: 20px;
+    text-align: center;
+    }
+    
+    /* Style the links */
+    a {
+    color: blue;
+    }
+    
+    /* Style the error message */
+    .error {
+    color: red;
+    text-align: center;
+    }
+    
+    /* Style the poll sections */
+    .poll-section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    }
+    
+    /* Style the poll heading */
+    .poll-heading {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: center;
+    }
+    
+    /* Style the vote button */
+    .vote-button {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    }
+    
+    .vote-button:hover {
+    background-color: #0077be;
+    }
+    
+    /* Add unique font and align heading to the center */
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+    
+    h1, h2, h3, nav, .poll-heading {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    }
+    
+    /* center align the elements in body */
+    nav, .poll-section, form {
+    margin: 0 auto;
+    text-align: center;
+    }
